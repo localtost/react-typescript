@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.pd1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.mt2 {
+  margin-top: 2rem;
+}
+.todolist-item {
+  margin-bottom:1rem;
+}
+.todolist-item.completed span {
+  text-decoration: line-through;
+}
+.todolist-item label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem;
+  background: #f3f3f3;
+}
+.todolist-item i {
+  z-index: 2;
+}
